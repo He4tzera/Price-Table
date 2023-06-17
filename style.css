@@ -53,6 +53,7 @@ header{
     border-radius: 8px;
     padding-left: 29px;
     padding-top: 30px;
+    
 }
 
 #free{
@@ -69,35 +70,35 @@ header{
     
 }
 
-#price{
+.price{
     display: inline;
     font-weight: 700;
     font-size: 36px;
     color: #1E2338; 
 }
 
-#price span{
+.price span{
     display: inline;
     font-weight: 700;
     font-size: 18px;
     color: #1E2338;
 }
 
-#mes{
+.mes{
     display: inline;
     font-weight: 400;
     font-size: 18px;
     color: #828799;
 }
 
-#infos{
+.infos{
     width: 291px;
     height: 38px;
     font-size: 14px;
     font-weight: 400;
 }
 
-#divisor{
+.divisor{
     width: 295px;
     height: 1px;
     left: 197px;
@@ -111,7 +112,6 @@ header{
     height: 58px;
     left: 198px;
     top: 523px;
-    margin-bottom: 120px;
     font-size: 14px;
 }
 
@@ -124,7 +124,6 @@ header{
     width: 296px;
     height: 49px;
     margin-top: 120px;
-    padding: 12px, 24px, 12px, 24px;
     margin-bottom: 30px;
     border-radius: 10px;
 
@@ -135,4 +134,95 @@ header{
     background-color: #ffff;
     color: #1D539E;
 
+}
+
+#cardBasic{
+    position: absolute;
+    width: 355px;
+    height: 490px;
+
+    z-index: 999;
+    left: 542px;
+    top: 300px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(142, 150, 185, 0.25);
+    border-radius: 8px;
+}
+
+#retangle16{
+    display: flex;
+    flex-direction: row;
+    width: 355px;
+    height: 76px;
+    background: #FFCC29;
+    box-shadow: 0px 1px 2px rgba(142, 150, 185, 0.25);
+    border-radius: 8px;
+    align-items: center; 
+}
+
+#basico{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #1D539E;
+    margin-left: 30px;
+
+}
+
+#popular{
+    padding: 8px 24px;
+    gap: 10px;
+    background: #1D539E;
+    border-radius: 40px;
+
+    margin-left: 148px;
+    margin-right: 20px;
+}
+
+#popular p{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#priceCardBasic{
+    width: 176px;
+    height: 52px;   
+    margin: 10px 149px 10px 30px;
+}
+
+.price.basic{
+    display: inline;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    color: #1E2338;
+    margin-top: 10px;
+}
+
+.price.basic span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1E2338;
+
+}
+.mes.basic{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #828799;
+    margin-left: 5px;
+}
+
+.infos.basic{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 10px    ;
+    border: red solid 1px;
 }
