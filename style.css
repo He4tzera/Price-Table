@@ -53,7 +53,6 @@ header{
     border-radius: 8px;
     padding-left: 29px;
     padding-top: 30px;
-    
 }
 
 #free{
@@ -66,7 +65,8 @@ header{
 #priceCard{
     width: 148px;
     height: 49px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     
 }
 
@@ -96,6 +96,7 @@ header{
     height: 38px;
     font-size: 14px;
     font-weight: 400;
+    color: #828799;
 }
 
 .divisor{
@@ -113,11 +114,14 @@ header{
     left: 198px;
     top: 523px;
     font-size: 14px;
+    padding: 0;
 }
 
 #listFree li{
     list-style-image:url(assets/check.svg);
     margin-right: 15px;
+    color: #828799;
+    list-style-position: inside;
 }
 
 #btnFree{
@@ -219,10 +223,43 @@ header{
 }
 
 .infos.basic{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 31px;
+    color: #828799;
+}
+
+.divisor.basic{
     margin-left: 30px;
-    margin-top: 10px    ;
-    border: red solid 1px;
+}
+
+.list.basic{
+    list-style-image:url(assets/check.svg);
+    margin-left: 30px;
+    padding: 0;
+    height: 100px;
+}
+
+.list.basic li{
+    font-size: 14px;
+    color: #828799;
+    list-style-position: inside;
+}  
+
+.btn.basic{
+    
+    padding: 12px 24px;
+    width: 296px;
+    height: 51px;
+
+    background: #1D539E;
+    border-radius: 10px;
+    margin-left: 29px;
+    margin-top: 79px;
+    margin-bottom: 43px;
+
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
